@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/* background-color: lightgray; */
+		
+}
+
+h1{
+	text-align: center;
+	color:blue;
+}
+
+.main_container{
+	margin: 0 auto;
+	width: 90%;
+	height: auto;
+	background-color: lightgray;
+	border: 1px solid blue;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.header_section{
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	border: 1px solid white;
+}
+
+.header1{
+	margin-left: 20px;
+	height: 90px;
+	width: 15%;
+	background-color: gray;
+}
+
+.header2{
+	margin-left: 100px;
+	height: 90px;
+	width: 60%;
+	background-color: gray;
+}
+
+.sub_container{
+	width: 100%;
+	display: flex;
+	/* position: relative; */
+}
+
+.main_containertwo{
+	position:relative;
+}
+
+.sub_containertwo{
+	width: 100%;
+	display: flex;
+}
+
+.sub_container1{
+	height:630px;
+	width: 50%;
+	background-color: gray;
+	border: 1px solid white;
+}
+
+.sub_container2{
+	height:630px;
+	width: 50%;
+	background-color: gray;
+	border: 1px solid white;
+}
+
+.sub_container3{
+	height:800px;
+	width: 50%;
+	background-color: gray;
+	border: 1px solid white;
+}
+
+.sub_container4{
+	height:800px;
+	width: 50%;
+	background-color: gray;
+	border: 1px solid white;
+}
+
+.card_section{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 552px;
+    left: 96px;
+}
+
+
+.card_section .card{
+	width: 150px;
+	height: 150px;
+	background-color: black;
+	border: 1px solid yellow;
+}
+
+.body_section{
+	height: 130px;
+	width: 90%;
+	background-color: black;
+	margin-top: 102px;
+    margin-left: 5%;
+}
+
+.footer_section{
+	height: 90px;
+	width: 100%;
+	background-color: black;
+}
